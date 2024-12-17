@@ -9,7 +9,8 @@ model = load_model(MODEL_PATH)
 
 # Define constants
 IMG_SIZE = 224
-CLASS_NAMES = ['Class1', 'Class2', ..., 'Class77']  # Replace with your class names
+CLASS_NAMES = ['Seethapala', 'Thumbe', 'Seethaashoka', 'Tomato', 'Tamarind', 'Tecoma', 'Taro', 'Turmeric', 'Tulsi', 'Spinach1', 'Papaya', 'Pea', 'Palak(Spinach)', 'Sapota', 'Pumpkin', 'Parijatha', 'Raddish', 'Pomoegranate', 'Rose', 'Sampige', 'Nelavembu', 'Onion', 'Malabar_Spinach', 'Padri', 'Marigold', 'Nerale', 'Nooni', 'Mango', 'Neem', 'Mint', 'Jasmine', 'Lemon', 'Kasambruga', 'Jackfruit', 'Kamakasturi', 'Kohlrabi', 'Kambajala', 'Lantana', 'Malabar_Nut', 'Kepala', 'Guava', 'Globe Amarnath', 'Ganigale', 'Gasagase', 'Insulin', 'Honge', 'Hibiscus', 'Henna', 'Ganike', 'Ginger', 'Common rue(naagdalli)', 'Eucalyptus', 'Ekka', 'Citron lime (herelikai)', 'Chakte', 'Curry', 'Coriender', 'Doddpathre', 'Coffee', 'Chilly', 'Beans', 'Bringaraja', 'Bamboo', 'Camphor', 'Bhrami', 'Castor', 'Balloon_Vine', 'Catharanthus', 'Betel', 'Caricature', 'Amruthaballi', 'Aloevera', 'Badipala', 'Astma_weed', 'Arali', 'Amla', 'Ashoka']
+# CLASS_NAMES = ['Class1', 'Class2', ..., 'Class77']  # Replace with your class names
 
 # Initialize Flask app
 app = Flask(__name__)
