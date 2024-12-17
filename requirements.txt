@@ -1,5 +1,5 @@
 Flask==2.0.3
-tensorflow==2.10.0  # Use your TensorFlow version
+tensorflow==2.13.0  
 Pillow==9.0.1
 numpy
 gunicorn==20.1.0
